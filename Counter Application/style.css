@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #95c8ff;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    margin-top: 300px;
+}
+h1{
+    color: black;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.counter {
+    font-size: 48px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: black;
+    border:2px solid black;
+}
+
+.even-odd {
+    font-size: 30px;
+    color: black;
+    margin: 20px;
+    padding-right: 10px;
+}
+
+.buttons button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
